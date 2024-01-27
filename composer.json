@@ -1,0 +1,30 @@
+{
+    "name": "addeos/config-hub",
+    "description": "Addeos_ConfigHub is designed to streamline configuration management across multiple stores and websites. With a centralized hub, synchronize and compare configuration settings.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.4||8.*"
+    },
+    "authors": [
+        {
+            "name": "Didier Berlioz",
+            "email": "didier@addeos.com",
+            "homepage": "https://www.addeos.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Addeos\\Anonymize\\": ""
+        }
+    }
+}
+
